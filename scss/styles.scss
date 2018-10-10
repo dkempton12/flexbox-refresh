@@ -19,7 +19,14 @@ $item-bg: seagreen;
     flex: 1;
     margin: 10px;
     padding: 15px;
+    text-align: center;
     background: $item-bg;
     color: $font;
+  }
+  .item1 {
+    order: 1;
+  }
+  .item8 {
+    order: -1;
   }
 }

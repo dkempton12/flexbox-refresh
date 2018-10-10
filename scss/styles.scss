@@ -11,3 +11,15 @@ body {
 
 $font: #FFF;
 $item-bg: seagreen;
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  .item {
+    flex: 1;
+    margin: 10px;
+    padding: 15px;
+    background: $item-bg;
+    color: $font;
+  }
+}

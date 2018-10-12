@@ -12,14 +12,17 @@ body {
   flex-direction: row;
   justify-content: space-between; }
   .flex-container .item {
+    margin: 0 15px;
     padding: 15px;
     border-radius: 5px;
     text-align: center;
     background: seagreen;
     color: #FFF; }
   .flex-container .item1 {
-    order: 1; }
-  .flex-container .item8 {
-    order: -1; }
+    order: 1;
+    flex: 10 5 500px; }
+  .flex-container .item2 {
+    order: -1;
+    flex: 1 1 500px; }
 
 /*# sourceMappingURL=styles.css.map */

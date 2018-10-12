@@ -17,6 +17,7 @@ $item-bg: seagreen;
   flex-direction: row;
   justify-content: space-between;
   .item {
+    margin: 0 15px;
     padding: 15px;
     border-radius: 5px;
     text-align: center;
@@ -25,8 +26,10 @@ $item-bg: seagreen;
   }
   .item1 {
     order: 1;
+    flex: 10 5 500px;
   }
-  .item8 {
+  .item2 {
     order: -1;
+    flex: 1 1 500px;
   }
 }
